@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54371EA61F15512E006EF81B /* Icons8-Ios7-Weather-Partly-Cloudy-Rain.ico in Resources */ = {isa = PBXBuildFile; fileRef = 54371EA51F15512E006EF81B /* Icons8-Ios7-Weather-Partly-Cloudy-Rain.ico */; };
 		5442F3F31F102CB900B1583D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442F3F21F102CB900B1583D /* AppDelegate.swift */; };
 		5442F3F51F102CB900B1583D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442F3F41F102CB900B1583D /* ViewController.swift */; };
 		5442F3F81F102CB900B1583D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5442F3F61F102CB900B1583D /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54371EA51F15512E006EF81B /* Icons8-Ios7-Weather-Partly-Cloudy-Rain.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Icons8-Ios7-Weather-Partly-Cloudy-Rain.ico"; sourceTree = "<group>"; };
 		5442F3EF1F102CB900B1583D /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5442F3F21F102CB900B1583D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5442F3F41F102CB900B1583D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				5442F3FC1F102CB900B1583D /* Assets.xcassets */,
 				5442F3FE1F102CB900B1583D /* LaunchScreen.storyboard */,
 				5442F4071F103ECA00B1583D /* 2.png */,
+				54371EA51F15512E006EF81B /* Icons8-Ios7-Weather-Partly-Cloudy-Rain.ico */,
 				5442F4081F103ECA00B1583D /* 1.png */,
 				5442F4091F103ECA00B1583D /* weather.jpg */,
 				5442F4011F102CB900B1583D /* Info.plist */,
@@ -139,6 +142,7 @@
 				5442F3FD1F102CB900B1583D /* Assets.xcassets in Resources */,
 				5442F40A1F103ECA00B1583D /* 2.png in Resources */,
 				5442F3F81F102CB900B1583D /* Main.storyboard in Resources */,
+				54371EA61F15512E006EF81B /* Icons8-Ios7-Weather-Partly-Cloudy-Rain.ico in Resources */,
 				5442F40C1F103ECA00B1583D /* weather.jpg in Resources */,
 				5442F40B1F103ECA00B1583D /* 1.png in Resources */,
 			);
