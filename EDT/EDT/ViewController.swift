@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
 
     let elements = ["About","Location","Projects","New Users","Calendar","Credits"]
-   
+    let segues = ["1","2","3","4","5","6"]
     @IBOutlet weak var tableView: UITableView!
     // @IBOutlet var tableView: UITableView!
     
@@ -26,6 +26,14 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
         return elements.count
     }
     
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let ViewControllerID = segues[indexPath.row]
+        print("View controller is " + elements[indexPath.row])
+        let viewController = storyboard?.instantiateViewController(withIdentifier: ViewControllerID)
+        self.navigationController?.pushViewController( viewController!, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
@@ -38,13 +46,6 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
         cell.iconImage.layer.cornerRadius = cell.iconImage.frame.height / 2
         return cell
     }
-    //- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
     
-    // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
-    // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
-    
-    //- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
-
-
-
+   
 }
