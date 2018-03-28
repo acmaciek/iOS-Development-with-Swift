@@ -38,6 +38,7 @@ class ViewController: UIViewController, UISearchBarDelegate {
     let dataTask = URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
       if error == nil {
         do {
+          
           let json = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String: Any]
           if let location = json["location"] as? [String: AnyObject] {
             if let cityName = location["name"] as? String {
