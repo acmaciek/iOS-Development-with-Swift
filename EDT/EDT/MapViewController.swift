@@ -19,6 +19,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         annotation.title = "Chicago EDT"
+        annotation.subtitle = "Come to the far garage door in the southeast corner of the parking lot. If the door next to it isn’t open, just knock on the garage door"
         //41.867881, -87.645469
         //new coordinates 41.868082, -87.645434
         annotation.coordinate = CLLocationCoordinate2D(latitude: 41.868082, longitude: -87.645434)

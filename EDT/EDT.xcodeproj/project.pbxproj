@@ -11,6 +11,10 @@
 		5451B622206B0CCB009169A9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451B621206B0CCB009169A9 /* TableViewCell.swift */; };
 		5451B624206B30ED009169A9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451B623206B30ED009169A9 /* WebViewController.swift */; };
 		5451B626206B4EBA009169A9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451B625206B4EBA009169A9 /* MapViewController.swift */; };
+		5451B62A206DC012009169A9 /* ProjectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451B629206DC012009169A9 /* ProjectViewCell.swift */; };
+		5451B62C206DC0AC009169A9 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451B62B206DC0AC009169A9 /* ProjectViewController.swift */; };
+		5451B62E206DCBC0009169A9 /* CallendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451B62D206DCBC0009169A9 /* CallendarViewController.swift */; };
+		5451B630206DCEB5009169A9 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451B62F206DCEB5009169A9 /* NewUserViewController.swift */; };
 		54A21776205C60AB00833B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A21775205C60AB00833B35 /* AppDelegate.swift */; };
 		54A2177B205C60AB00833B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A21779205C60AB00833B35 /* Main.storyboard */; };
 		54A2177D205C60AB00833B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A2177C205C60AB00833B35 /* Assets.xcassets */; };
@@ -23,6 +27,10 @@
 		5451B621206B0CCB009169A9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5451B623206B30ED009169A9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		5451B625206B4EBA009169A9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5451B629206DC012009169A9 /* ProjectViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewCell.swift; sourceTree = "<group>"; };
+		5451B62B206DC0AC009169A9 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		5451B62D206DCBC0009169A9 /* CallendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallendarViewController.swift; sourceTree = "<group>"; };
+		5451B62F206DCEB5009169A9 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
 		54A21772205C60AB00833B35 /* EDT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A21775205C60AB00833B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54A2177A205C60AB00833B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,9 +73,13 @@
 				54A21789205C73C000833B35 /* Images */,
 				54A21775205C60AB00833B35 /* AppDelegate.swift */,
 				5451B625206B4EBA009169A9 /* MapViewController.swift */,
-				5451B61F206AFE8B009169A9 /* ViewController.swift */,
 				5451B623206B30ED009169A9 /* WebViewController.swift */,
+				5451B62D206DCBC0009169A9 /* CallendarViewController.swift */,
+				5451B61F206AFE8B009169A9 /* ViewController.swift */,
+				5451B62B206DC0AC009169A9 /* ProjectViewController.swift */,
+				5451B62F206DCEB5009169A9 /* NewUserViewController.swift */,
 				5451B621206B0CCB009169A9 /* TableViewCell.swift */,
+				5451B629206DC012009169A9 /* ProjectViewCell.swift */,
 				54A21779205C60AB00833B35 /* Main.storyboard */,
 				54A2177C205C60AB00833B35 /* Assets.xcassets */,
 				54A2177E205C60AB00833B35 /* LaunchScreen.storyboard */,
@@ -157,10 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5451B62A206DC012009169A9 /* ProjectViewCell.swift in Sources */,
 				5451B620206AFE8B009169A9 /* ViewController.swift in Sources */,
 				5451B622206B0CCB009169A9 /* TableViewCell.swift in Sources */,
 				54A21776205C60AB00833B35 /* AppDelegate.swift in Sources */,
 				5451B626206B4EBA009169A9 /* MapViewController.swift in Sources */,
+				5451B62E206DCBC0009169A9 /* CallendarViewController.swift in Sources */,
+				5451B62C206DC0AC009169A9 /* ProjectViewController.swift in Sources */,
+				5451B630206DCEB5009169A9 /* NewUserViewController.swift in Sources */,
 				5451B624206B30ED009169A9 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
